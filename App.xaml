@@ -1,0 +1,19 @@
+<Application x:Class="NewYearGarlandGuide.App"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+        <SolidColorBrush x:Key="WindowBackground" Color="#0A0A14"/>
+        <SolidColorBrush x:Key="WindowForeground" Color="#E0E0FF"/>
+
+        <Style TargetType="Window">
+            <Setter Property="Background" Value="{StaticResource WindowBackground}"/>
+            <Setter Property="Foreground" Value="{StaticResource WindowForeground}"/>
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{StaticResource WindowForeground}"/>
+        </Style>
+    </Application.Resources>
+</Application>
