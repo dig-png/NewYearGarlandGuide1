@@ -1,12 +1,13 @@
 <Window x:Class="NewYearGarlandGuide.MainWindow"
- xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
- xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
- Title="Новогодняя Гирлянда - Инструкция" Height="747" Width="748"
- WindowStartupLocation="CenterScreen"
- Background="#0A0A14"
- Foreground="#E0E0FF"
- FontFamily="Segoe UI"
- ResizeMode="CanMinimize">
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Новогодняя Гирлянда - Инструкция" Height="747" Width="748"
+        WindowState="Maximized" 
+        WindowStyle="None"
+        Background="#0A0A14"
+        Foreground="#E0E0FF"
+        FontFamily="Segoe UI"
+        ResizeMode="CanMinimize">
 
     <Grid Margin="0,0,0,-16">
         <Grid.RowDefinitions>
@@ -25,197 +26,109 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Canvas Panel.ZIndex="0" Margin="0,0,0,12" Grid.RowSpan="2">
-
-            <Ellipse Canvas.Left="50" Canvas.Top="30" Width="1.5" Height="1.5" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="120" Canvas.Top="70" Width="1" Height="1" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="200" Canvas.Top="20" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="280" Canvas.Top="60" Width="1.2" Height="1.2" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="350" Canvas.Top="40" Width="1.8" Height="1.8" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="420" Canvas.Top="80" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="500" Canvas.Top="30" Width="2.2" Height="2.2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="580" Canvas.Top="70" Width="1.5" Height="1.5" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="650" Canvas.Top="50" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="720" Canvas.Top="90" Width="1.8" Height="1.8" Fill="White" Opacity="0.4"/>
-
-            <Ellipse Canvas.Left="30" Canvas.Top="150" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="100" Canvas.Top="180" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="180" Canvas.Top="160" Width="1.2" Height="1.2" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="250" Canvas.Top="190" Width="1.5" Height="1.5" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="320" Canvas.Top="170" Width="1" Height="1" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="400" Canvas.Top="200" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="480" Canvas.Top="160" Width="1.2" Height="1.2" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="550" Canvas.Top="190" Width="1.8" Height="1.8" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="620" Canvas.Top="170" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="700" Canvas.Top="200" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-
-            <Ellipse Canvas.Left="60" Canvas.Top="280" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="140" Canvas.Top="310" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="220" Canvas.Top="290" Width="1.5" Height="1.5" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="300" Canvas.Top="320" Width="1.2" Height="1.2" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="380" Canvas.Top="300" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="460" Canvas.Top="330" Width="1" Height="1" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="540" Canvas.Top="310" Width="1.8" Height="1.8" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="620" Canvas.Top="340" Width="1.2" Height="1.2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="700" Canvas.Top="320" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="780" Canvas.Top="350" Width="2" Height="2" Fill="White" Opacity="0.4"/>
-
-            <Ellipse Canvas.Left="20" Canvas.Top="420" Width="1.5" Height="1.5" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="90" Canvas.Top="450" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="160" Canvas.Top="470" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="230" Canvas.Top="440" Width="1.2" Height="1.2" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="300" Canvas.Top="460" Width="1.8" Height="1.8" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="370" Canvas.Top="490" Width="1" Height="1" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="440" Canvas.Top="470" Width="2" Height="2" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="510" Canvas.Top="440" Width="1.2" Height="1.2" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="580" Canvas.Top="460" Width="1.5" Height="1.5" Fill="White" Opacity="0.4"/>
-            <Ellipse Canvas.Left="650" Canvas.Top="490" Width="1" Height="1" Fill="White" Opacity="0.3"/>
-            <Ellipse Canvas.Left="720" Canvas.Top="470" Width="2" Height="2" Fill="White" Opacity="0.5"/>
-            <Ellipse Canvas.Left="790" Canvas.Top="440" Width="1.2" Height="1.2" Fill="White" Opacity="0.4"/>
-
-            <Ellipse Canvas.Left="150" Canvas.Top="100" Width="3" Height="3" Fill="#6CE5FF" Opacity="0.7" Panel.ZIndex="0">
-                <Ellipse.Triggers>
-                    <EventTrigger RoutedEvent="Loaded">
-                        <BeginStoryboard>
-                            <Storyboard>
-                                <DoubleAnimation Storyboard.TargetProperty="Opacity"
-                                             From="0.3" To="0.8" Duration="0:0:2"
-                                             AutoReverse="True" RepeatBehavior="Forever"/>
-                            </Storyboard>
-                        </BeginStoryboard>
-                    </EventTrigger>
-                </Ellipse.Triggers>
-            </Ellipse>
-
-            <Ellipse Canvas.Left="600" Canvas.Top="120" Width="2" Height="2" Fill="#FFD700" Opacity="0.6" Panel.ZIndex="0">
-                <Ellipse.Triggers>
-                    <EventTrigger RoutedEvent="Loaded">
-                        <BeginStoryboard>
-                            <Storyboard>
-                                <DoubleAnimation Storyboard.TargetProperty="Opacity"
-                                             From="0.2" To="0.7" Duration="0:0:1.8"
-                                             AutoReverse="True" RepeatBehavior="Forever"/>
-                            </Storyboard>
-                        </BeginStoryboard>
-                    </EventTrigger>
-                </Ellipse.Triggers>
-            </Ellipse>
-
-            <Ellipse Canvas.Left="400" Canvas.Top="380" Width="4" Height="4" Fill="#FF5555" Opacity="0.5" Panel.ZIndex="0">
-                <Ellipse.Triggers>
-                    <EventTrigger RoutedEvent="Loaded">
-                        <BeginStoryboard>
-                            <Storyboard>
-                                <DoubleAnimation Storyboard.TargetProperty="Opacity"
-                                             From="0.1" To="0.6" Duration="0:0:2.2"
-                                             AutoReverse="True" RepeatBehavior="Forever"/>
-                            </Storyboard>
-                        </BeginStoryboard>
-                    </EventTrigger>
-                </Ellipse.Triggers>
-            </Ellipse>
-
-            <Ellipse Canvas.Left="250" Canvas.Top="350" Width="2.5" Height="2.5" Fill="#00FF88" Opacity="0.4" Panel.ZIndex="0">
-                <Ellipse.Triggers>
-                    <EventTrigger RoutedEvent="Loaded">
-                        <BeginStoryboard>
-                            <Storyboard>
-                                <DoubleAnimation Storyboard.TargetProperty="Opacity"
-                                             From="0.2" To="0.5" Duration="0:0:1.5"
-                                             AutoReverse="True" RepeatBehavior="Forever"/>
-                            </Storyboard>
-                        </BeginStoryboard>
-                    </EventTrigger>
-                </Ellipse.Triggers>
-            </Ellipse>
-        </Canvas>
-
         <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" 
-                Width="500" Margin="0,106,0,0" Panel.ZIndex="1" Height="540" Grid.RowSpan="2">
+                    Width="500" Margin="0,60,0,0" Panel.ZIndex="1" Height="580" Grid.RowSpan="2">
 
-            <Border Background="#1A1A2E" CornerRadius="15" Padding="30,25" 
-                Margin="0,0,0,40" BorderBrush="#3A3AFF" BorderThickness="2">
+            <Border Background="#1A1A2E" CornerRadius="15" Padding="30,20" 
+                    Margin="0,0,0,20" BorderBrush="#3A3AFF" BorderThickness="2">
                 <StackPanel>
-                    <TextBlock Text="НОВОГОДНЯЯ ГИРЛЯНДА" 
-                           FontSize="28" FontWeight="Bold"
-                           Foreground="#6CE5FF" 
-                           HorizontalAlignment="Center"
-                           TextAlignment="Center"
-                           TextWrapping="Wrap"/>
-                    <TextBlock Text="Полное руководство по установке" 
-                           FontSize="18" Foreground="#A0A0FF"
-                           HorizontalAlignment="Center" Margin="0,15,0,0"
-                           TextWrapping="Wrap"/>
+                    <TextBlock Text="НОВОГОДНЯЯ ГИРЛЯНДА" FontSize="28" FontWeight="Bold" Foreground="#6CE5FF" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap"/>
+                    <TextBlock Text="Полное руководство по установке" FontSize="18" Foreground="#A0A0FF" HorizontalAlignment="Center" Margin="0,10,0,0"/>
                 </StackPanel>
             </Border>
 
-            <Button x:Name="StartButton" Content="🚀 НАЧАТЬ ИНСТРУКЦИЮ" 
-                Height="70" FontSize="20" FontWeight="Bold"
-                Background="#006644" Foreground="White"
-                BorderBrush="#00FF88" BorderThickness="2"
-                Click="Start_Click"
-                Margin="0,0,0,25"
-                Cursor="Hand"
-                Panel.ZIndex="2">
+            <TextBlock Text="ВЫБЕРИТЕ ТИП ГИРЛЯНДЫ:" Foreground="#FFD700" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+            <ComboBox x:Name="GarlandTypeSelector" SelectedIndex="0" Height="45" Margin="0,0,0,20" 
+                      Foreground="White" FontSize="16" BorderThickness="0">
+                <ComboBox.Resources>
+                    <Style TargetType="ComboBoxItem">
+                        <Setter Property="Background" Value="#1A1A2E"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="Padding" Value="10"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ComboBoxItem">
+                                    <Border x:Name="gd" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="gd" Property="Background" Value="#3A3AFF"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ComboBox.Resources>
+
+                <ComboBox.Template>
+                    <ControlTemplate TargetType="ComboBox">
+                        <Grid>
+                            <ToggleButton x:Name="ToggleButton" Grid.Column="2" ClickMode="Press" Focusable="false" IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                                <ToggleButton.Template>
+                                    <ControlTemplate TargetType="ToggleButton">
+                                        <Border x:Name="Border" Background="#1A1A2E" BorderBrush="#3A3AFF" BorderThickness="2" CornerRadius="8">
+                                            <Path x:Name="Arrow" Fill="#6CE5FF" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Data="M0,0 L4,4 L8,0 Z"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="Border" Property="Background" Value="#252545"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </ToggleButton.Template>
+                            </ToggleButton>
+                            <ContentPresenter x:Name="ContentSite" IsHitTestVisible="False" Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" Margin="15,3,23,3" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                            <Popup x:Name="Popup" Placement="Bottom" IsOpen="{TemplateBinding IsDropDownOpen}" AllowsTransparency="True" Focusable="False" PopupAnimation="Slide">
+                                <Grid x:Name="DropDown" SnapsToDevicePixels="True" MinWidth="{TemplateBinding ActualWidth}" MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                    <Border x:Name="DropDownBorder" Background="#1A1A2E" BorderBrush="#3A3AFF" BorderThickness="2" CornerRadius="5"/>
+                                    <ScrollViewer Margin="4,6,4,6" SnapsToDevicePixels="True">
+                                        <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                    </ScrollViewer>
+                                </Grid>
+                            </Popup>
+                        </Grid>
+                    </ControlTemplate>
+                </ComboBox.Template>
+
+                <ComboBoxItem Content="🎄 Обычная гирлянда-нить"/>
+                <ComboBoxItem Content="🕸️ Гирлянда-сетка"/>
+                <ComboBoxItem Content="🕯️ Гирлянда со свечами"/>
+            </ComboBox>
+
+            <Button x:Name="StartButton" Content="🚀 НАЧАТЬ ИНСТРУКЦИЮ" Height="70" FontSize="20" FontWeight="Bold" Background="#006644" Foreground="White" BorderBrush="#00FF88" BorderThickness="2" Click="Start_Click" Margin="0,0,0,20" Cursor="Hand">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            CornerRadius="10">
-                            <ContentPresenter HorizontalAlignment="Center" 
-                                          VerticalAlignment="Center"/>
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
 
-            <Button x:Name="ExitButton" Content="🚪 ВЫЙТИ ИЗ ПРИЛОЖЕНИЯ" 
-                Height="60" FontSize="18" FontWeight="SemiBold"
-                Background="#3A3A6A" Foreground="White"
-                BorderBrush="#6A6AFF" BorderThickness="1"
-                Click="Exit_Click"
-                Cursor="Hand"
-                Panel.ZIndex="2">
+            <Button x:Name="ExitButton" Content="🚪 ВЫЙТИ ИЗ ПРИЛОЖЕНИЯ" Height="50" FontSize="18" FontWeight="SemiBold" Background="#3A3A6A" Foreground="White" BorderBrush="#6A6AFF" BorderThickness="1" Click="Exit_Click" Cursor="Hand">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            CornerRadius="8">
-                            <ContentPresenter HorizontalAlignment="Center" 
-                                          VerticalAlignment="Center"/>
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
 
-            <Border Background="#1A1A2E" CornerRadius="10" Padding="20,15"
-                BorderBrush="#FFD700" BorderThickness="1" Margin="0,40,0,20"
-                Panel.ZIndex="1">
+            <Border Background="#1A1A2E" CornerRadius="10" Padding="20,15" BorderBrush="#FFD700" BorderThickness="1" Margin="0,20,0,0">
                 <StackPanel>
-                    <TextBlock Text="📋 О ПРИЛОЖЕНИИ:" 
-                           FontSize="16" FontWeight="Bold"
-                           Foreground="#FFD700" Margin="0,0,0,12"/>
-                    <TextBlock Text="• 5 простых шагов по установке гирлянды" 
-                           FontSize="14" Foreground="#D0D0FF" Margin="0,0,0,5"/>
-                    <TextBlock Text="• Наглядные инструкции с изображениями" 
-                           FontSize="14" Foreground="#D0D0FF" Margin="0,0,0,5"/>
-                    <TextBlock Text="• Безопасные рекомендации от экспертов" 
-                           FontSize="14" Foreground="#D0D0FF" Margin="0,0,0,5"/>
-                    <TextBlock Text="• Пошаговое руководство для всех" 
-                           FontSize="14" Foreground="#D0D0FF"/>
+                    <TextBlock Text="📋 О ПРИЛОЖЕНИИ:" FontSize="16" FontWeight="Bold" Foreground="#FFD700" Margin="0,0,0,8"/>
+                    <TextBlock Text="• Поддержка 3-х видов гирлянд" FontSize="14" Foreground="#D0D0FF"/>
+                    <TextBlock Text="• Наглядные пошаговые фото" FontSize="14" Foreground="#D0D0FF"/>
                 </StackPanel>
             </Border>
         </StackPanel>
 
-        <Border VerticalAlignment="Center" HorizontalAlignment="Center"
-            Background="#121225" Padding="15,10"
-            CornerRadius="10" BorderBrush="#3A3AFF" BorderThickness="1"
-            Panel.ZIndex="2" Height="42" Width="304" Grid.Row="1">
-            <TextBlock Text="✨ С наступающим Новым Годом! ✨" 
-                   FontSize="15" Foreground="#A0A0FF"
-                   FontStyle="Italic"/>
+        <Border VerticalAlignment="Center" HorizontalAlignment="Center" Background="#121225" Padding="15,10" CornerRadius="10" BorderBrush="#3A3AFF" BorderThickness="1" Panel.ZIndex="2" Height="42" Width="304" Grid.Row="1">
+            <TextBlock Text="✨ С наступающим Новым Годом! ✨" FontSize="15" Foreground="#A0A0FF" FontStyle="Italic" HorizontalAlignment="Center"/>
         </Border>
     </Grid>
 </Window>
